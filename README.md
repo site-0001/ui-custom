@@ -19,4 +19,5 @@ git submodule update --remote
 ```
 git submodule deinit -f themes/ui-custom
 git rm -r --cached themes/ui-custom
+rm -r .git/modules/themes/ui-custom
 ```
