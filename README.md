@@ -13,3 +13,10 @@ git submodule add https://github.com/site-0001/ui-custom.git themes/ui-custom
 ```
 git submodule update --remote
 ```
+
+## Uninstall
+
+```
+git submodule deinit -f themes/ui-custom
+git rm -r --cached themes/ui-custom
+```
